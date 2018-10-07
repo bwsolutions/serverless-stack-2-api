@@ -40,7 +40,6 @@ provider:
      tableName: ${self:custom.tableName}
      stripeSecretKey: ${self:custom.environment.stripeSecretKey}
 
-
   iamRoleStatements:
      - Effect: Allow
        Action:
