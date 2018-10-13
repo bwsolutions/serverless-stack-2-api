@@ -14,7 +14,8 @@ export async function main(event, context, callback) {
       createdAt: Date.now()
     }
   };
-
+  gibberish.what;
+  
   try {
     await dynamoDbLib.call("put", params);
     callback(null, success(params.Item));
